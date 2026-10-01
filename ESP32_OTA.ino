@@ -91,5 +91,7 @@ void setup() {                            // Exécuté une seule fois au démarr
 
 void loop() {                             // Exécuté en boucle infinie après setup()
   ArduinoOTA.handle();                    // OBLIGATOIRE : vérifie si l'IDE demande une mise à jour et la traite
-  // ... votre code, SANS delay() long (utiliser millis())  // un delay() long empêcherait handle() d'être appelé assez souvent
-}                                         // Fin de loop() : on recommence au début
+  // ... votre code, SANS delay() long (utiliser millis())  
+  // un delay() long empêcherait handle() d'être appelé assez souvent 
+  // Fin de loop() : on recommence au début
+}                                         
